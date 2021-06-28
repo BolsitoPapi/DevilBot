@@ -1,0 +1,4 @@
+const Discord = require("discord.js")
+module.exports= {
+    name:"", //aqui puedes poner ejmplo [ready, message, guildmemberADD etc]
+async execute(message, client , args , prefix){

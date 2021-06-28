@@ -1,0 +1,22 @@
+const Discord = require('discord.js');
+const client = new Discord.Client();
+const { Client, MessageEmbed } = require('discord.js')
+
+module.exports = {
+    name:"",//nombre del comando
+    aliases:"",//alias
+    description: "", //descripcion del comando
+    onlycreator: false, //si esta en true solo el dueño puede usar el comando
+    args: false,// si nesesita args
+    usage: "", // como se debe usar (solo se activa si args esta en true) 
+    category: "", //categoria del comando
+    permissions: "",// permisos del author del mensaje
+    cooldown: 2, //
+    permissionsme: "", // permisos del bot que nesesita para ejecutar el comando
+    guildOnly: false, // si esta en true no responde MD si esta en false reponde en los canales de textos y MD
+
+async execute(message, args, prefix, client) {
+
+
+  }
+}
